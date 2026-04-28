@@ -23,15 +23,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
-        server.createContext("/api/system", systemMetricsController);
-        server.createContext("/api/cpu", cpuMetricsController);
-        server.createContext("/api/disk", diskMetricsController);
-        server.createContext("/api/time", timeMetricsController);
-
         server.createContext("/api/all", allMetricsController);
-
         server.createContext("/dashboard", dashboardController);
-
         server.setExecutor(null);
         server.start();
     }
