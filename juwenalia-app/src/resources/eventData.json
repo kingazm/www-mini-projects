@@ -1,0 +1,118 @@
+{
+    "name": "Juwenalia Krakowskie",
+    "year": 2026,
+    "location": "Kraków",
+    "date": "13–23 maja 2026",
+    "dateStart": "2026-05-13",
+    "dateEnd": "2026-05-23",
+    "description": "Coroczne święto studentów obejmujące koncerty, wydarzenia kulturalne i atrakcje plenerowe.",
+    "facebook": "https://www.facebook.com/JuwenaliaKrakowskie/",
+    "program": [
+        "Pochód juwenaliowy",
+        "Koncerty wieczorne",
+        "Dzień sportu",
+        "Strefa food trucków"
+    ],
+    "artists": [
+        {
+            "name": "Myslovitz",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Myslovitz%2C_3-Maj%C3%B3wka_2023_29.jpg/250px-Myslovitz%2C_3-Maj%C3%B3wka_2023_29.jpg",
+            "spotify": "https://open.spotify.com/artist/3sntDD4Y2K97qvDq3GPqZ5"
+        },
+        {
+            "name": "Tommy Cash",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tommy_Cash_at_ESC2025_for_Estonia_10_%28cropped%29.jpg/250px-Tommy_Cash_at_ESC2025_for_Estonia_10_%28cropped%29.jpg",
+            "spotify": "https://open.spotify.com/artist/44XzG6GoJZNtkIGW19hsUK"
+        },
+        {
+            "name": "Happysad",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Happysad_2026.jpg/250px-Happysad_2026.jpg",
+            "spotify": "https://open.spotify.com/artist/4NkE5k5xSRm6eVE7vMhqD6"
+        },
+        {
+            "name": "Strachy Na Lachy",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Strachy_Na_Lachy.JPG/250px-Strachy_Na_Lachy.JPG",
+            "spotify": "https://open.spotify.com/artist/4DXXg7xzgKAEYeFhh9wAtk"
+        },
+        {
+            "name": "Pidżama Porno",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Pid%C5%BCama_Porno%2C_3-Maj%C3%B3wka_2022_32.jpg/250px-Pid%C5%BCama_Porno%2C_3-Maj%C3%B3wka_2022_32.jpg",
+            "spotify": "https://open.spotify.com/artist/0qibngGI3EFCen6abY5hqY"
+        },
+        {
+            "name": "Dżem",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/D%C5%BCem%2C_Opera_Le%C5%9Bna%2C_30.08.2024_22.jpg/250px-D%C5%BCem%2C_Opera_Le%C5%9Bna%2C_30.08.2024_22.jpg",
+            "spotify": "https://open.spotify.com/artist/5ADo6yIOeD8LJglejYcuen"
+        },
+        {
+            "name": "Golec uOrkiestra",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Kortowiada_2016.jpg/250px-Kortowiada_2016.jpg",
+            "spotify": "https://open.spotify.com/artist/7sYIwdHZoqVUh6i58SJrmx"
+        },
+        {
+            "name": "Skolim",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Skolim_2025.jpg/250px-Skolim_2025.jpg",
+            "spotify": "https://open.spotify.com/artist/3RJrimoFyTK3SoTF4TaDSA"
+        },
+        {
+            "name": "Żabson",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/%C5%BBabson_w_Czw%C3%B3rce.jpg/250px-%C5%BBabson_w_Czw%C3%B3rce.jpg",
+            "spotify": "https://open.spotify.com/artist/0QR764k0D36npmTMWx5bft"
+        },
+        {
+            "name": "Tymek",
+            "image": "",
+            "spotify": "https://open.spotify.com/artist/1silJqJQfrrZNFvWWjAyhh"
+        },
+        {
+            "name": "Chivas",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Chivas_w_Siedlcach_%282025%29.png/250px-Chivas_w_Siedlcach_%282025%29.png",
+            "spotify": "https://open.spotify.com/artist/1fZAAHNWdSM5gqbi9o5iEA"
+        },
+        {
+            "name": "Fisz Emade Tworzywo",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Fisz_Emade_Tworzywo%2C_3-Maj%C3%B3wka_2023_18.jpg/250px-Fisz_Emade_Tworzywo%2C_3-Maj%C3%B3wka_2023_18.jpg",
+            "spotify": "https://open.spotify.com/artist/0YYxsW13yGiA2e80fu4VIA"
+        },
+        {
+            "name": "Nocny Kochanek",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nocny_Kochanek%2C_3-Maj%C3%B3wka_2022_24.jpg/250px-Nocny_Kochanek%2C_3-Maj%C3%B3wka_2022_24.jpg",
+            "spotify": "https://open.spotify.com/artist/1S9WnjiTrLaqPCJ8gWSWWq"
+        },
+        {
+            "name": "Big Cyc",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/BigCyc2025.jpg/250px-BigCyc2025.jpg",
+            "spotify": "https://open.spotify.com/artist/6zKeUUQLwOtJf15g1OovdE"
+        },
+        {
+            "name": "Łydka Grubasa",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/%C5%81ydka_Grubasa%2C_3-Maj%C3%B3wka_2023_29.jpg/250px-%C5%81ydka_Grubasa%2C_3-Maj%C3%B3wka_2023_29.jpg",
+            "spotify": "https://open.spotify.com/artist/569FdhHZfMXaaCkF74Ok2x"
+        },
+        {
+            "name": "Guzior",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/GUZIOR_PROMO_FOT5.jpg/250px-GUZIOR_PROMO_FOT5.jpg",
+            "spotify": "https://open.spotify.com/artist/7uWyXPJ04ihdQdYGGw3xVV"
+        },
+        {
+            "name": "Gruby Mielzky",
+            "image": "",
+            "spotify": "https://open.spotify.com/artist/6f3oixxZSgRKOW2CSqOFqM"
+        },
+        {
+            "name": "Słoń",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/S%C5%82o%C5%84rapper.jpeg/250px-S%C5%82o%C5%84rapper.jpeg",
+            "spotify": "https://open.spotify.com/artist/0wm6v5GU6VbR1wtsm0YiTV"
+        },
+        {
+            "name": "Sarius x Pawbeats",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/SariusKrak%C3%B3w.jpg/250px-SariusKrak%C3%B3w.jpg",
+            "spotify": "https://open.spotify.com/artist/3sW41aChSc5bBow0Folc1S"
+        },
+        {
+            "name": "Baciary",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Zesp%C3%B3%C5%82_Baciary.jpg/250px-Zesp%C3%B3%C5%82_Baciary.jpg",
+            "spotify": "https://open.spotify.com/artist/40KrdFUYJgw31acL5TH9zD"
+        }
+    ]
+}

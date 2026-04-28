@@ -1,0 +1,258 @@
+.App {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 20px 80px;
+}
+
+.site-header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  margin-bottom: 20px;
+}
+
+.site-header h1 {
+  font-size: clamp(30px, 6vw, 54px);
+  font-weight: 800;
+  color: #1c1c2e;
+}
+
+.site-header h1 .year {
+  color: #f97316;
+}
+
+.fb-link {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 100px;
+  background: #f2ede4;
+  color: #1877f2;
+}
+
+.card {
+  background: #fff;
+  border-radius: 18px;
+  border: 1px solid #ece8e0;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.04);
+  padding: 28px;
+}
+
+.section-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f97316;
+  margin-bottom: 18px;
+}
+
+.event-main {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 620px) {
+  .event-main {
+    grid-template-columns: 1fr;
+  }
+}
+
+.event-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.info-field .label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #9ca3af;
+  margin-bottom: 3px;
+}
+
+.info-field .value {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1c1c2e;
+}
+
+.info-field .value.description {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.calendar {
+  min-width: 252px;
+}
+
+.calendar-month {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #1c1c2e;
+  margin-bottom: 14px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  row-gap: 2px;
+}
+
+.cal-weekday {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: #9ca3af;
+  padding-bottom: 8px;
+}
+
+.cal-day {
+  text-align: center;
+  font-size: 12px;
+  padding: 5px 2px;
+  color: #374151;
+  border-radius: 6px;
+}
+
+.cal-day.empty {
+  visibility: hidden;
+}
+
+.cal-day.event-day {
+  background: #fff7ed;
+  color: #ea580c;
+  font-weight: 700;
+}
+
+.cal-day.event-start {
+  border-radius: 8px 0 0 8px;
+}
+
+.cal-day.event-mid {
+  border-radius: 0;
+}
+
+.cal-day.event-end {
+  border-radius: 0 8px 8px 0;
+}
+
+.calendar-footer {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: 11px;
+  color: #6b7280;
+}
+
+.program-container {
+  margin-bottom: 24px;
+}
+
+.program-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.program-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid #f2ede4;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1c1c2e;
+}
+
+.program-item:last-child {
+  border-bottom: none;
+}
+
+.program-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #fff7ed;
+  color: #f97316;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.artists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.artist-card {
+  text-align: center;
+  padding: 28px 20px 24px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+
+.artist-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.artist-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f97316, #fbbf24);
+  margin: 0 auto 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.artist-avatar--photo {
+  object-fit: cover;
+  background: #ece8e0;
+}
+
+.artist-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1c1c2e;
+}
+
+.spotify-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #1db954;
+}
+
+.artist-card:hover .spotify-badge {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding: 70px 20px 0px;
+  color: #9ca3af;
+}

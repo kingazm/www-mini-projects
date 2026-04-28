@@ -1,0 +1,15 @@
+{
+  "short_name": "JuweKRK 2026",
+  "name": "Juwenalia Krakoskie 2026",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f97316",
+  "background_color": "#fffbf5"
+}
