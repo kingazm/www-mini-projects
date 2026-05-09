@@ -1,22 +1,13 @@
 package com.kingazm;
 
 import com.kingazm.dashboard_page.controller.DashboardController;
-import com.kingazm.metrics_api.controller.AllMetricsController;
-import com.kingazm.metrics_api.controller.CpuMetricsController;
-import com.kingazm.metrics_api.controller.DiskMetricsController;
-import com.kingazm.metrics_api.controller.SystemMetricsController;
-import com.kingazm.metrics_api.controller.TimeMetricsController;
+import com.kingazm.metrics_api.controller.AllMetricsController;;
 import com.sun.net.httpserver.HttpServer;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
 
 public class Main {
-    static CpuMetricsController cpuMetricsController = new CpuMetricsController();
-    static TimeMetricsController timeMetricsController = new TimeMetricsController();
-    static SystemMetricsController systemMetricsController = new SystemMetricsController();
-    static DiskMetricsController diskMetricsController = new DiskMetricsController();
-
     static AllMetricsController allMetricsController = new AllMetricsController();
 
     static DashboardController dashboardController = new DashboardController();
